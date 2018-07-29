@@ -6,11 +6,24 @@ a{
 	margin-left: auto;
 	margin-right: auto;
 }
-.contacticons
+.bck
 {
 	border-radius: 50%;
 	border: 2px solid #717171;
 	padding: 1px;
+	width: 64px;
+	height: 64px;
+	margin-top: 5%;
+}
+.bck:hover
+{
+	border: 2px solid #72CAAF;
+}
+.contacticons
+{
+	border-radius: 50%;
+	border: 2px solid #717171;
+	padding: 2px;
 	width: 120px;
 	height:120px;
 	margin-top:17%;
@@ -40,7 +53,7 @@ a{
 }
 .hovertelegram:hover
 {
-	border: 2px solid #33ABDE;
+	border: 2px solid #FFFFFF;
 }
 .avatar {
 	border-radius: 50%;
