@@ -18,6 +18,30 @@ a{
 .contacticons:hover {
 	border: 2px solid #5a5a5a;
 }
+.hovergit:hover
+{	
+	border: 2px solid black;
+}
+.hovergitlab:hover
+{
+	border: 2px solid #EF5F27;
+}
+.hoverinsta:hover
+{
+	border: 2px solid #cc1fa4;
+}
+.hoverlinkedin:hover
+{
+	border: 2px solid #000D5E;
+}
+.hovergmail:hover
+{
+	border: 2px solid #E83F31;
+}
+.hovertelegram:hover
+{
+	border: 2px solid #33ABDE;
+}
 .avatar {
 	border-radius: 50%;
 	border: 2px solid #717171;
