@@ -7,7 +7,7 @@ a{
 	font-size: 20px;
 	font-style: italic;
 	font-weight: 600;
-	color: #225522;
+	color: #64F58D;
 }
 .center {
 	display: block;
@@ -78,7 +78,7 @@ a{
 
 .simpleBtn {
 	background-color: #101010;
-	color: #717171;
+	color: #99B2DD;
 	border: 2px solid #222222;
 	padding: 8px;
 	border-radius: 5px;
@@ -106,7 +106,7 @@ a{
 
 .downloadBtn {
 	background-color: #101010;
-	color: #717171;
+	color: #99B2DD;
 	border: 2px solid #222222;
 	padding: 8px;
 	border-radius: 5px;
@@ -172,6 +172,6 @@ a{
 }
 
 body {
-	background-color: #181818;
+	background-color: #7A5C58;
 	height: 100%;
 }
