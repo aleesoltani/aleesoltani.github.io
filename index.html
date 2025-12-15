@@ -1,494 +1,708 @@
-
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Ali Soltani</title>
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="author" content="AliSoltani" />
 
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Ali Soltani</title>
-        <meta name="description" content="" />
-        <meta name="keywords" content="" />
-        <meta name="author" content="AliSoltani" />
+    <link rel="shortcut icon" href="images/favicon.ico" />
 
-        <link rel="shortcut icon" href="images/favicon.ico">
+    <!--Bootstrap Css-->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
 
-        <!--Bootstrap Css-->
-        <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- Materialdesign icons Css -->
+    <link rel="stylesheet" href="css/materialdesignicons.min.css" />
 
-        <!-- Materialdesign icons Css -->
-        <link rel="stylesheet" href="css/materialdesignicons.min.css">
+    <!-- Mobirise icons Css -->
+    <link rel="stylesheet" href="css/mobiriseicons.css" />
 
-        <!-- Mobirise icons Css -->
-        <link rel="stylesheet" href="css/mobiriseicons.css">
+    <!-- Magnific-popup -->
+    <link rel="stylesheet" href="css/magnific-popup.css" />
 
-        <!-- Magnific-popup -->
-        <link rel="stylesheet" href="css/magnific-popup.css">
+    <!-- Animate Css -->
+    <link rel="stylesheet" href="css/animate.min.css" />
 
-        <!-- Animate Css -->
-        <link rel="stylesheet" href="css/animate.min.css">
+    <!-- Owl Slider -->
+    <link rel="stylesheet" href="css/owl.carousel.css" />
+    <link rel="stylesheet" href="css/owl.theme.css" />
+    <link rel="stylesheet" href="css/owl.transitions.css" />
 
-        <!-- Owl Slider -->
-        <link rel="stylesheet" href="css/owl.carousel.css" />
-        <link rel="stylesheet" href="css/owl.theme.css" />
-        <link rel="stylesheet" href="css/owl.transitions.css" />
+    <!-- Custom style Css -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
 
-        <!-- Custom style Css -->
-        <link rel="stylesheet" href="css/style.css">
-    </head>
+  <body>
+    <!-- START LOADER -->
+    <div id="preloader">
+      <div id="status">
+        <div class="spinner">Loading...</div>
+      </div>
+    </div>
+    <!-- END LOADER -->
 
-    <body>
+    <!-- START NAVBAR -->
+    <nav class="navbar navbar-expand-lg fixed-top custom-nav sticky">
+      <div class="container">
+        <!-- LOGO -->
+        <a class="navbar-brand logo" href="index.html">
+          <img src="images/logo.png" alt="" class="img-fluid logo-light" />
+          <img src="images/logo-dark.png" alt="" class="img-fluid logo-dark" />
+        </a>
 
-        <!-- START LOADER -->
-        <div id="preloader">
-            <div id="status">
-                <div class="spinner">Loading...</div>
-            </div>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarCollapse"
+          aria-controls="navbarCollapse"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="mdi mdi-menu"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a href="#home" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#about" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="#experience" class="nav-link">Experience</a>
+            </li>
+            <li class="nav-item">
+              <a href="#contact" class="nav-link">Contact</a>
+            </li>
+          </ul>
         </div>
-        <!-- END LOADER -->
+      </div>
+    </nav>
+    <!-- END NAVBAR -->
 
-        <!-- START NAVBAR -->
-        <nav class="navbar navbar-expand-lg fixed-top custom-nav sticky">
-            <div class="container">
-                <!-- LOGO -->
-                <a class="navbar-brand logo" href="index.html">
-                        <img src="images/logo.png" alt="" class="img-fluid logo-light"> 
-                        <img src="images/logo-dark.png" alt="" class="img-fluid logo-dark">
-                    </a>
-
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-                        <i class="mdi mdi-menu"></i>
-                    </button>
-                <div class="collapse navbar-collapse" id="navbarCollapse">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item active">
-                            <a href="#home" class="nav-link">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#about" class="nav-link">About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#experience" class="nav-link">Experience</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#contact" class="nav-link">Contact</a>
-                        </li>
-                    </ul>
+    <!--START HOME-->
+    <section class="home-bg section h-100vh" id="home">
+      <div class="bg-overlay"></div>
+      <div class="home-table">
+        <div class="home-table-center">
+          <div class="container position-relative z-index">
+            <div class="row justify-content-center">
+              <div class="col-lg-12">
+                <div class="text-white text-center">
+                  <h4>Hello & Welcome</h4>
+                  <h1 class="header_title mb-0 mt-3">
+                    I Am
+                    <span class="simple-text-rotate font-weight-bold">
+                      Ali Soltani., A Developer., A Researcher.</span
+                    >
+                  </h1>
+                  <ul class="social_home list-unstyled text-center pt-4">
+                    <li class="list-inline-item">
+                      <a href="http://t.me/aleeslt"
+                        ><i class="mdi mdi-telegram"></i
+                      ></a>
+                    </li>
+                    <li class="list-inline-item">
+                      <a href="http://wa.me/989178361517"
+                        ><i class="mdi mdi-whatsapp"></i
+                      ></a>
+                    </li>
+                    <li class="list-inline-item">
+                      <a href="http://github.com/aleesoltani"
+                        ><i class="mdi mdi-github-circle"></i
+                      ></a>
+                    </li>
+                    <li class="list-inline-item">
+                      <a href="http://medium.com/alisoltani"
+                        ><i class="mdi mdi-medium"></i
+                      ></a>
+                    </li>
+                    <li class="list-inline-item">
+                      <a href="http://linkedin.com/in/aleesoltani"
+                        ><i class="mdi mdi-linkedin"></i
+                      ></a>
+                    </li>
+                    <li class="list-inline-item">
+                      <a href="http://dribbble.com/aleesoltani"
+                        ><i class="mdi mdi-dribbble"></i
+                      ></a>
+                    </li>
+                  </ul>
+                  <div class="header_btn">
+                    <a
+                      href="resume.pdf"
+                      class="btn btn-outline-custom btn-rounded mt-4"
+                      >Download CV</a
+                    >
+                  </div>
                 </div>
+              </div>
             </div>
-        </nav>
-        <!-- END NAVBAR -->
+          </div>
+        </div>
+      </div>
+      <div class="scroll_down">
+        <a href="#about" class="scroll">
+          <i class="mbri-arrow-down text-white"></i>
+        </a>
+      </div>
+    </section>
+    <!--END HOME-->
 
-        <!--START HOME-->
-        <section class="home-bg section h-100vh" id="home">
-            <div class="bg-overlay"></div>
-            <div class="home-table">
-                <div class="home-table-center">
-                    <div class="container position-relative z-index">
-                        <div class="row justify-content-center">
-                            <div class="col-lg-12">
-                                <div class="text-white text-center">
-                                    <h4>Hello & Welcome</h4>
-                                    <h1 class="header_title mb-0 mt-3">I Am <span class="simple-text-rotate font-weight-bold"> Ali Soltani., A Developer., A Researcher.</span></h1>
-                                    <ul class="social_home list-unstyled text-center pt-4">
-                                        <li class="list-inline-item"><a href="http://t.me/aleeslt"><i class="mdi mdi-telegram"></i></a></li>
-                                        <li class="list-inline-item"><a href="http://wa.me/989178361517"><i class="mdi mdi-whatsapp"></i></a></li>
-                                        <li class="list-inline-item"><a href="http://github.com/aleesoltani"><i class="mdi mdi-github-circle"></i></a></li>
-                                        <li class="list-inline-item"><a href="http://medium.com/alisoltani"><i class="mdi mdi-medium"></i></a></li>
-                                        <li class="list-inline-item"><a href="http://linkedin.com/in/aleesoltani"><i class="mdi mdi-linkedin"></i></a></li>
-                                        <li class="list-inline-item"><a href="http://dribbble.com/aleesoltani"><i class="mdi mdi-dribbble"></i></a></li>
-                                        
-                                    </ul>
-                                    <div class="header_btn">
-                                        <a href="resume.pdf" class="btn btn-outline-custom btn-rounded mt-4">Download CV</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+    <!-- START ABOUT -->
+    <section class="section" id="about">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-12">
+            <div class="text-center mx-auto section-main-title">
+              <h2><span class="font-weight-bold">About </span>Me</h2>
+              <div class="main-title-border">
+                <i class="mdi mdi-asterisk"></i>
+              </div>
+              <p class="text-muted mx-auto mt-2">
+                I am a software developer based in Shiraz, Iran. Things that
+                excite me are Cryptography, Data Science, Problem Solving,
+                Designing and Game Development.
+              </p>
             </div>
-            <div class="scroll_down">
-                <a href="#about" class="scroll">
-                    <i class="mbri-arrow-down text-white"></i>
-                </a>
+          </div>
+        </div>
+        <div class="row mt-4 pt-4">
+          <div class="col-lg-12">
+            <div>
+              <img
+                src="images/sign.png"
+                alt=""
+                class="img-fluid mx-auto d-block"
+              />
             </div>
-        </section>
-        <!--END HOME-->
-
-        <!-- START ABOUT -->
-        <section class="section" id="about">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-lg-12">
-                        <div class="text-center mx-auto section-main-title">
-                            <h2><span class="font-weight-bold">About </span>Me</h2>
-                            <div class="main-title-border">
-                                <i class="mdi mdi-asterisk"></i>
-                            </div>
-                            <p class="text-muted mx-auto mt-2">
-                                I am a software developer based in Shiraz, Iran. Things that excite me are Cryptography, Data Science, 
-                                Problem Solving, Designing and Game Development.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="row mt-4 pt-4">
-                    <div class="col-lg-12">
-                        <div>
-                            <img src="images/sign.png" alt="" class="img-fluid mx-auto d-block">
-                        </div>
-                        <div class="text-center about-detail mx-auto mt-5">
-                            <h3 class="mb-3"><span class="font-weight-bold text-custom">I'm Ali Soltani.</span></h3>
-                            <!-- <ul class="mb-0 list-inline text-center about-work">
+            <div class="text-center about-detail mx-auto mt-5">
+              <h3 class="mb-3">
+                <span class="font-weight-bold text-custom"
+                  >I'm Ali Soltani.</span
+                >
+              </h3>
+              <!-- <ul class="mb-0 list-inline text-center about-work">
                                 <li class="list-inline-item mr-0 text-muted">Software Engineer</li>
                                 
                             </ul> -->
-                            <p class="text-muted mt-3">Here's a brief overview of my resume :-)</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="row mt-5">
-                    <div class="col-lg-6">
-                        <div class="progress-bars skill-custom">
-                            <div class="clearfix">
-                                <div class="text-dark font-weight-bold float-left">Backend Development (RESTful-Websockets-Docker)</div>
-                                <div class="text-muted float-right">85%</div>
-                            </div>
-                            <div class="progress">
-                                <div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
-                            <div class="clearfix">
-                                <div class="text-dark font-weight-bold float-left">Python Development & Related Technologies</div>
-                                <div class="text-muted float-right">85%</div>
-                            </div>
-                            <div class="progress">
-                                <div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
-                            <div class="clearfix">
-                                <div class="text-dark font-weight-bold float-left">C/C++ Development</div>
-                                <div class="text-muted float-right">75%</div>
-                            </div>
-                            <div class="progress">
-                                <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="progress-bars skill-custom">
-                            <div class="clearfix">
-                                <div class="text-dark font-weight-bold float-left">English</div>
-                                <div class="text-muted float-right">90%</div>
-                            </div>
-                            <div class="progress">
-                                <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
-                            <div class="clearfix">
-                                <div class="text-dark font-weight-bold float-left">SQL</div>
-                                <div class="text-muted float-right">70%</div>
-                            </div>
-                            <div class="progress">
-                                <div class="progress-bar" role="progressbar" style="width: 70%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
-                            <div class="clearfix">
-                                <div class="text-dark font-weight-bold float-left">Deep Learning & AI (Keras)</div>
-                                <div class="text-muted float-right">60%</div>
-                            </div>
-                            <div class="progress">
-                                <div class="progress-bar" role="progressbar" style="width:60%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+              <p class="text-muted mt-3">
+                Here's a brief overview of my resume :-)
+              </p>
             </div>
-        </section>
-        <!-- END ABOUT -->
-
-        <!-- END FUNFACTS -->
-        <section class="section bg-funfact">
-            <div class="bg-overlay"></div>
-            <div class="container">
-                <div class="row" id="counter">
-                    <div class="col-lg-3">
-                        <div class="text-center lan_funfact p-4 mt-3 rounded text-white">
-                            <div class="lan_fun_icon mb-3">
-                                <i class="mbri-timer h1"></i>
-                            </div>
-                            <h1 class="lan_fun_value mb-1" data-count="6720">4</h1>
-                            <p class="lan_fun_name mb-0">Working Hours</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-3">
-                        <div class="text-center lan_funfact p-4 mt-3 rounded text-white">
-                            <div class="lan_fun_icon mb-3">
-                                <i class="mbri-preview h1"></i>
-                            </div>
-                            <h1 class="lan_fun_value mb-1" >ENFP-T</h1>
-                            <p class="lan_fun_name mb-0">Personality Test</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-3">
-                        <div class="text-center lan_funfact p-4 mt-3 rounded text-white">
-                            <div class="lan_fun_icon mb-3">
-                                <i class="mbri-hot-cup h1"></i>
-                            </div>
-                            <h1 class="lan_fun_value mb-1">Coffee</h1>
-                            <p class="lan_fun_name mb-0">Favorite Drink</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-3">
-                        <div class="text-center lan_funfact p-4 mt-3 rounded text-white">
-                            <div class="lan_fun_icon mb-3">
-                                <i class="mbri-idea h1"></i>
-                            </div>                       
-                            <h1 class="lan_fun_value mb-1" data-count="137">2</h1>
-                            <p class="lan_fun_name mb-0">IQ</p>
-                        </div>
-                    </div>
+          </div>
+        </div>
+        <div class="row mt-5">
+          <div class="col-lg-6">
+            <div class="progress-bars skill-custom">
+              <div class="clearfix">
+                <div class="text-dark font-weight-bold float-left">
+                  Backend Development (RESTful-Websockets-Docker)
                 </div>
-            </div>
-        </section>
-        <!-- START FUNFACTS -->
-
-        <!-- START EXP. & EDU. -->
-        <section class="section" id="experience">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-lg-12">
-                        <div class="text-center mx-auto section-main-title">
-                            <h2><span class="font-weight-bold">Experience & Education</span></h2>
-                            <div class="main-title-border">
-                                <i class="mdi mdi-asterisk"></i>
-                            </div>
-                        </div>
-                    </div>
+                <div class="text-muted float-right">85%</div>
+              </div>
+              <div class="progress">
+                <div
+                  class="progress-bar"
+                  role="progressbar"
+                  style="width: 85%"
+                  aria-valuenow="0"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+              <div class="clearfix">
+                <div class="text-dark font-weight-bold float-left">
+                  Python Development & Related Technologies
                 </div>
-                <div class="row mt-4 pt-4">
-                    <div class="col-lg-5">
-                        <div class="cv_edu_exp mt-3">
-                            <div class="cv_edu_exp_box mt-4">
-                                <div class="row">
-                                    <div class="col-lg-12">
-                                        <div class="cv_edu_exp_year font-weight-bold text-custom position-relative">2022-08 - Now</div>
-                                        <div class="cb_edu_exp_detail">
-                                            <h4>Software Engineer - Backend</h4>
-                                            <p><strong>SatPlat <br>Tehran, Iran</strong></p>
-                                            <p class="cv_desc mb-0">
-                                                I'm currently developing backend applications using Python Django, Git,
-                                                Docker, and RESTful apis.
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="cv_edu_exp_box mt-4">
-                                <div class="row">
-                                    <div class="col-lg-12">
-                                        <div class="cv_edu_exp_year font-weight-bold text-custom position-relative">2020-01 - 2021-01</div>
-                                        <div class="cb_edu_exp_detail">
-                                            <h4>Software Engineer - Backend</h4>
-                                            <p><strong>Romand.ir <br>Sharif University, Tehran, Iran</strong></p>
-                                            <p class="cv_desc mb-0">
-                                                Worked with Python Django, Git and Websockets.
-                                                Instructed Multiple Interns.
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="cv_edu_exp_box mt-4">
-                                <div class="row">
-                                    <div class="col-lg-12">
-                                        <div class="cv_edu_exp_year font-weight-bold text-custom position-relative">2020-01 - 2021-01</div>
-                                        <div class="cb_edu_exp_detail">
-                                            <h4>Software Engineer - Backend</h4>
-                                            <p><strong>AsrGooyeshPardaz <br>Tehran, Iran</strong></p>
-                                            <p class="cv_desc mb-0">
-                                                Linux Administration, Project Management. 
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-5 offset-lg-2">
-                        <div class="cv_edu_exp mt-3">
-                            <div class="cv_edu_exp_box mt-4">
-                                <div class="row">
-                                    <div class="col-lg-12">
-                                        <div class="cv_edu_exp_year font-weight-bold text-custom position-relative">2017 - 2018</div>
-                                        <div class="cb_edu_exp_detail">
-                                            <h4>BI SQL Developer</h4>
-                                            <p class="cv_desc mb-0">
-                                                Shiraz University, June 2017 - January 2018
-                                            </p>
-                                            <p class="cv_desc mb-0">
-                                                Worked on huge databases, Extracting BI Answers. Using SQL. 
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="cv_edu_exp_box mt-4">
-                                <div class="row">
-                                    <div class="col-lg-12">
-                                        <div class="cv_edu_exp_year font-weight-bold text-custom position-relative">2016 - 2019</div>
-                                        <div class="cb_edu_exp_detail">
-                                            <h4>MSc in Computer Software Engineering</h4>
-                                            Studied at Shiraz University
-                                            <p class="cv_desc mb-0">
-                                                Thesis Title : Proposing a Method for Human Emotion Analysis Using Social Networks
-                                            </p>
-                                            <p class="cv_desc mb-0">
-                                                I've worked with Keras on Classifying Text Data. I did Sentiment Analysis on Multiple Datasets using Deep Learning.
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="cv_edu_exp_box mt-4">
-                                <div class="row">
-                                    <div class="col-lg-12">
-                                        <div class="cv_edu_exp_year font-weight-bold text-custom position-relative">2012 - 2016</div>
-                                        <div class="cb_edu_exp_detail">
-                                            <h4>BSc in Computer Hardware Engineering</h4>
-                                            Studied at Hamedan University of Technology
-                                            <p class="cv_desc mb-0">
-                                                Thesis Title : Developing a Secure Chat App for Android
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>                
-            </div>
-        </section>
-        <!-- END EXP. & EDU. -->
-
-        <!-- START CTA -->
-        <section class="section bg-cta" id="contact">
-            <div class="bg-overlay"></div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="text-center text-white">
-                            <h1>I Am Available For Freelance Work.</h1>
-                            <div class="mt-4">
-                                <a href="mailto:alee.soltani@gmail.com" class="btn btn-outline-custom">Don't hesitate to reach out!</a>
-                            </div>
-                        </div>
-                    </div>
+                <div class="text-muted float-right">85%</div>
+              </div>
+              <div class="progress">
+                <div
+                  class="progress-bar"
+                  role="progressbar"
+                  style="width: 85%"
+                  aria-valuenow="25"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+              <div class="clearfix">
+                <div class="text-dark font-weight-bold float-left">
+                  C/C++ Development
                 </div>
+                <div class="text-muted float-right">75%</div>
+              </div>
+              <div class="progress">
+                <div
+                  class="progress-bar"
+                  role="progressbar"
+                  style="width: 75%"
+                  aria-valuenow="0"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
             </div>
-        </section>
-        <!-- END CTA -->
-
-        <!-- CONTACT FORM START-->
-        <section class="section " id="contact">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-lg-12">
-                        <div class="text-center mx-auto section-main-title">
-                            <h2>Get In <span class="font-weight-bold">Touch</span></h2>
-                            <div class="main-title-border">
-                                <i class="mdi mdi-asterisk"></i>
-                            </div>
-                            <p class="text-muted mx-auto mt-2">You can contact me using below links, also my social media addresses are found
-                                on the website.
-                            </p>
-                        </div>
-                    </div>
-                </div>  
-                <div class="row mt-4 pt-4">
-                    <div class="col-lg-3">
-                    </div>
-
-                    <div class="col-lg-3">
-                        <div class="text-center mt-4">
-                            <div>
-                                <i class="mbri-mobile2 text-custom h2"></i>
-                            </div>
-                            <div class="mt-2">
-                                <p class="mb-0 font-weight-bold">Call Me</p>
-                                <p class="text-muted">+98 917 836 1517</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3">                        
-                        <div class="text-center mt-4">
-                            <div>
-                                <i class="mbri-letter text-custom h2"></i>
-                            </div>
-                            <div class="mt-2">
-                                <p class="mb-0 font-weight-bold">Email Me</p>
-                                <p class="text-muted">alee.soltani@gmail.com</p>
-                            </div>
-                        </div>                        
-                    </div>
-                    <div class="col-lg-3">
-                    </div>
-                </div>                          
-            </div>
-        </section> 
-        <!-- CONTACT FORM END-->
-
-        <!-- START FOOTER -->
-        <section class="bg-light">
-            <div class="container">
-                <div class="row pt-4 pb-4">
-                    <div class="col-lg-12">
-                        <div class="float-left float_none mt-2 mb-2">
-                            <a href="http://alisoltani.ir" class="copy-rights text-muted mb-0">2022 &copy; Ali Soltani</a>
-                        </div>
-                        <div class="float-right float_none mt-2 mb-2">
-                            <ul class="list-inline fot_social mb-0">
-                                <li class="list-inline-item"><a href="http://t.me/aleeslt" class="social-icon text-muted"><i class="mdi mdi-telegram"></i></a></li>
-                                <li class="list-inline-item"><a href="http://linkedin.com/in/aleesoltani" class="social-icon text-muted"><i class="mdi mdi-linkedin"></i></a></li>
-                                <li class="list-inline-item"><a href="http://wa.me/989178361517" class="social-icon text-muted"><i class="mdi mdi-whatsapp"></i></a></li>
-                                <li class="list-inline-item"><a href="http://medium.com/alisoltani" class="social-icon text-muted"><i class="mdi mdi-medium"></i></a></li>  
-                                <li class="list-inline-item"><a href="http://github.com/aleesoltani" class="social-icon text-muted"><i class="mdi mdi-github-circle"></i></a></li>                              
-                                <li class="list-inline-item"><a href="mailto:alee.soltani@gmail.com" class="social-icon text-muted"><i class="mdi mdi-gmail"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="progress-bars skill-custom">
+              <div class="clearfix">
+                <div class="text-dark font-weight-bold float-left">English</div>
+                <div class="text-muted float-right">90%</div>
+              </div>
+              <div class="progress">
+                <div
+                  class="progress-bar"
+                  role="progressbar"
+                  style="width: 90%"
+                  aria-valuenow="0"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+              <div class="clearfix">
+                <div class="text-dark font-weight-bold float-left">SQL</div>
+                <div class="text-muted float-right">70%</div>
+              </div>
+              <div class="progress">
+                <div
+                  class="progress-bar"
+                  role="progressbar"
+                  style="width: 70%"
+                  aria-valuenow="25"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+              <div class="clearfix">
+                <div class="text-dark font-weight-bold float-left">
+                  Deep Learning & AI (Keras)
                 </div>
+                <div class="text-muted float-right">60%</div>
+              </div>
+              <div class="progress">
+                <div
+                  class="progress-bar"
+                  role="progressbar"
+                  style="width: 60%"
+                  aria-valuenow="0"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
             </div>
-        </section>
-        <!-- END FOOTER -->
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END ABOUT -->
 
-        <!-- BACK TO TOP -->    
-        <a href="#" class="back_top"> <i class="mbri-arrow-up"> </i> </a>
+    <!-- END FUNFACTS -->
+    <section class="section bg-funfact">
+      <div class="bg-overlay"></div>
+      <div class="container">
+        <div class="row" id="counter">
+          <div class="col-lg-3">
+            <div class="text-center lan_funfact p-4 mt-3 rounded text-white">
+              <div class="lan_fun_icon mb-3">
+                <i class="mbri-timer h1"></i>
+              </div>
+              <h1 class="lan_fun_value mb-1" data-count="6720">4</h1>
+              <p class="lan_fun_name mb-0">Working Hours</p>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="text-center lan_funfact p-4 mt-3 rounded text-white">
+              <div class="lan_fun_icon mb-3">
+                <i class="mbri-preview h1"></i>
+              </div>
+              <h1 class="lan_fun_value mb-1">ENFP-T</h1>
+              <p class="lan_fun_name mb-0">Personality Test</p>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="text-center lan_funfact p-4 mt-3 rounded text-white">
+              <div class="lan_fun_icon mb-3">
+                <i class="mbri-hot-cup h1"></i>
+              </div>
+              <h1 class="lan_fun_value mb-1">Coffee</h1>
+              <p class="lan_fun_name mb-0">Favorite Drink</p>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="text-center lan_funfact p-4 mt-3 rounded text-white">
+              <div class="lan_fun_icon mb-3">
+                <i class="mbri-idea h1"></i>
+              </div>
+              <h1 class="lan_fun_value mb-1" data-count="137">2</h1>
+              <p class="lan_fun_name mb-0">IQ</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- START FUNFACTS -->
 
+    <!-- START EXP. & EDU. -->
+    <section class="section" id="experience">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-12">
+            <div class="text-center mx-auto section-main-title">
+              <h2>
+                <span class="font-weight-bold">Experience & Education</span>
+              </h2>
+              <div class="main-title-border">
+                <i class="mdi mdi-asterisk"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row mt-4">
+          <div class="col-lg-6">
+            <div class="cv_edu_exp">
+              <div class="cv_edu_exp_box mb-3 pb-3 border-bottom">
+                <div class="d-flex justify-content-between align-items-start">
+                  <div class="flex-grow-1">
+                    <h5 class="mb-1 font-weight-bold">
+                      Software Engineer - Backend
+                    </h5>
+                    <p class="mb-1 text-muted">MATT3R</p>
+                    <p class="mb-1 small text-muted">
+                      Vancouver, BC, Canada - Remote
+                    </p>
+                    <p class="mb-0 small text-muted">
+                      <em
+                        >Python, Bash, AWS, Prometheus, DynamoDB, Redis,
+                        Jenkins, Serverless, Docker, BLE, Git</em
+                      >
+                    </p>
+                  </div>
+                  <span class="text-custom font-weight-bold ml-3"
+                    >2023-02 - Present</span
+                  >
+                </div>
+              </div>
 
-        <!-- JAVASCRIPTS -->
-        <script src="js/jquery.min.js"></script>
-        <script src="js/popper.min.js"></script>
-        <script src="js/bootstrap.min.js"></script>
-        <!--EASING JS-->
-        <script src="js/jquery.easing.min.js"></script>
-        <script src="js/scrollspy.min.js"></script>
-        <!--TEXT ROTETE-->
-        <script src="js/jquery.simple-text-rotator.js"></script>         
-        <!-- MFP JS -->
-        <script src="js/jquery.magnific-popup.min.js"></script>
-        <!--PORTFOLIO FILTER JS-->
-        <script src="js/isotope.js"></script>     
-        <!--PARTICLES ANIMATE JS-->
-        <script src="js/particles.js"></script>  
-        <script src="js/particles.app.js"></script>   
-        <!-- OWL CAROUSEL -->
-        <script src="js/owl.carousel.min.js"></script>
-        <!--CUSTOM JS-->
-        <script src="js/custom.js"></script>
-        <script>
-            $(".simple-text-rotate").textrotator({
-                animation: "dissolve",
-                speed: 2500
-            });
-        </script>
-    </body>
+              <div class="cv_edu_exp_box mb-3 pb-3 border-bottom">
+                <div class="d-flex justify-content-between align-items-start">
+                  <div class="flex-grow-1">
+                    <h5 class="mb-1 font-weight-bold">
+                      ML & DL Course Instructor
+                    </h5>
+                    <p class="mb-1 text-muted">Private Company</p>
+                    <p class="mb-1 small text-muted">
+                      Ahwaz, Khuzestan, Iran - On-site
+                    </p>
+                    <p class="mb-0 small text-muted">
+                      <em
+                        >Python, Deep Learning, Stock Analysis, Image
+                        Processing</em
+                      >
+                    </p>
+                  </div>
+                  <span class="text-custom font-weight-bold ml-3"
+                    >2023-01 - 2023-03</span
+                  >
+                </div>
+              </div>
+
+              <div class="cv_edu_exp_box mb-3 pb-3 border-bottom">
+                <div class="d-flex justify-content-between align-items-start">
+                  <div class="flex-grow-1">
+                    <h5 class="mb-1 font-weight-bold">
+                      Software Engineer - Backend
+                    </h5>
+                    <p class="mb-1 text-muted">SatPlat</p>
+                    <p class="mb-1 small text-muted">
+                      Tehran, Iran - Hybrid (Sharif University of Technology)
+                    </p>
+                    <p class="mb-0 small text-muted">
+                      <em>Python, Django, Postgres, Docker, Linux, Git</em>
+                    </p>
+                  </div>
+                  <span class="text-custom font-weight-bold ml-3"
+                    >2022-07 - 2023-02</span
+                  >
+                </div>
+              </div>
+
+              <div class="cv_edu_exp_box mb-3 pb-3 border-bottom">
+                <div class="d-flex justify-content-between align-items-start">
+                  <div class="flex-grow-1">
+                    <h5 class="mb-1 font-weight-bold">
+                      Freelance Software Developer
+                    </h5>
+                    <p class="mb-1 text-muted">Self Employed</p>
+                    <p class="mb-1 small text-muted">
+                      Shiraz, Fars, Iran - Remote
+                    </p>
+                    <p class="mb-0 small text-muted">
+                      <em>Python, Django, Postgres, Websocket, Git</em>
+                    </p>
+                  </div>
+                  <span class="text-custom font-weight-bold ml-3"
+                    >2021-01 - 2022-07</span
+                  >
+                </div>
+              </div>
+
+              <div class="cv_edu_exp_box mb-3">
+                <div class="d-flex justify-content-between align-items-start">
+                  <div class="flex-grow-1">
+                    <h5 class="mb-1 font-weight-bold">
+                      Software Engineer - Backend
+                    </h5>
+                    <p class="mb-1 text-muted">AsrGooyeshPardaz</p>
+                    <p class="mb-1 small text-muted">
+                      Tehran, Iran - On-site (Sharif University of Technology)
+                    </p>
+                    <p class="mb-0 small text-muted">
+                      <em
+                        >Python, Django, Websocket, Java, Postgres, Linux,
+                        Git</em
+                      >
+                    </p>
+                  </div>
+                  <span class="text-custom font-weight-bold ml-3"
+                    >2019-12 - 2021-01</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="cv_edu_exp">
+              <div class="cv_edu_exp_box mb-3 pb-3 border-bottom">
+                <div class="d-flex justify-content-between align-items-start">
+                  <div class="flex-grow-1">
+                    <h5 class="mb-1 font-weight-bold">BI SQL Developer</h5>
+                    <p class="mb-1 text-muted">Shiraz University</p>
+                    <p class="mb-1 small text-muted">Shiraz, Iran - On-site</p>
+                    <p class="mb-0 small text-muted">
+                      <em>SQL, Apache Zeppelin, Spark, Linux, Git</em>
+                    </p>
+                  </div>
+                  <span class="text-custom font-weight-bold ml-3"
+                    >2019-01 - 2019-07</span
+                  >
+                </div>
+              </div>
+              <div class="cv_edu_exp_box mb-3 pb-3 border-bottom">
+                <div class="d-flex justify-content-between align-items-start">
+                  <div class="flex-grow-1">
+                    <h5 class="mb-1 font-weight-bold">
+                      MSc in Computer Software Engineering
+                    </h5>
+                    <p class="mb-1 text-muted">Shiraz University</p>
+                    <p class="mb-0 small text-muted">Shiraz, Iran</p>
+                    <p class="mb-0 mt-1 small">GPA: 3.1/4.0</p>
+                    <p class="mb-0 mt-1 small">
+                      Thesis: Human Emotion Analysis on Twitter Data Using Deep
+                      Learning - Grade: A+
+                    </p>
+                    <p class="mb-0 mt-1 small text-muted">
+                      <em>C++, Python, Keras, SQL</em>
+                    </p>
+                  </div>
+                  <span class="text-custom font-weight-bold ml-3"
+                    >2016-09 - 2019-09</span
+                  >
+                </div>
+              </div>
+              <div class="cv_edu_exp_box mb-3">
+                <div class="d-flex justify-content-between align-items-start">
+                  <div class="flex-grow-1">
+                    <h5 class="mb-1 font-weight-bold">
+                      BSc in Computer Hardware Engineering
+                    </h5>
+                    <p class="mb-1 text-muted">
+                      Hamadan University of Technology
+                    </p>
+                    <p class="mb-0 small text-muted">Hamadan, Iran</p>
+                    <p class="mb-0 mt-1 small">GPA: 3.3/4.0</p>
+                    <p class="mb-0 mt-1 small">
+                      Thesis: Developing a Secure Android Chat Application -
+                      Grade: A+
+                    </p>
+                    <p class="mb-0 mt-1 small text-muted">
+                      <em>C++, Java</em>
+                    </p>
+                  </div>
+                  <span class="text-custom font-weight-bold ml-3"
+                    >2012-09 - 2016-09</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END EXP. & EDU. -->
+
+    <!-- START CTA -->
+    <section class="section bg-cta" id="contact">
+      <div class="bg-overlay"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="text-center text-white">
+              <h1>I Am Available For Freelance Work.</h1>
+              <div class="mt-4">
+                <a
+                  href="mailto:alee.soltani@gmail.com"
+                  class="btn btn-outline-custom"
+                  >Don't hesitate to reach out!</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END CTA -->
+
+    <!-- CONTACT FORM START-->
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-12">
+            <div class="text-center mx-auto section-main-title">
+              <h2>Get In <span class="font-weight-bold">Touch</span></h2>
+              <div class="main-title-border">
+                <i class="mdi mdi-asterisk"></i>
+              </div>
+              <p class="text-muted mx-auto mt-2">
+                You can contact me using below links, also my social media
+                addresses are found on the website.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row mt-4 pt-4">
+          <div class="col-lg-3"></div>
+
+          <div class="col-lg-3">
+            <div class="text-center mt-4">
+              <div>
+                <i class="mbri-mobile2 text-custom h2"></i>
+              </div>
+              <div class="mt-2">
+                <p class="mb-0 font-weight-bold">Call Me</p>
+                <p class="text-muted">+98 917 836 1517</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="text-center mt-4">
+              <div>
+                <i class="mbri-letter text-custom h2"></i>
+              </div>
+              <div class="mt-2">
+                <p class="mb-0 font-weight-bold">Email Me</p>
+                <p class="text-muted">alee.soltani@gmail.com</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3"></div>
+        </div>
+      </div>
+    </section>
+    <!-- CONTACT FORM END-->
+
+    <!-- START FOOTER -->
+    <section class="bg-light">
+      <div class="container">
+        <div class="row pt-4 pb-4">
+          <div class="col-lg-12">
+            <div class="float-left float_none mt-2 mb-2">
+              <a href="http://alisoltani.ir" class="copy-rights text-muted mb-0"
+                >2022 &copy; Ali Soltani</a
+              >
+            </div>
+            <div class="float-right float_none mt-2 mb-2">
+              <ul class="list-inline fot_social mb-0">
+                <li class="list-inline-item">
+                  <a href="http://t.me/aleeslt" class="social-icon text-muted"
+                    ><i class="mdi mdi-telegram"></i
+                  ></a>
+                </li>
+                <li class="list-inline-item">
+                  <a
+                    href="http://linkedin.com/in/aleesoltani"
+                    class="social-icon text-muted"
+                    ><i class="mdi mdi-linkedin"></i
+                  ></a>
+                </li>
+                <li class="list-inline-item">
+                  <a
+                    href="http://wa.me/989178361517"
+                    class="social-icon text-muted"
+                    ><i class="mdi mdi-whatsapp"></i
+                  ></a>
+                </li>
+                <li class="list-inline-item">
+                  <a
+                    href="http://medium.com/alisoltani"
+                    class="social-icon text-muted"
+                    ><i class="mdi mdi-medium"></i
+                  ></a>
+                </li>
+                <li class="list-inline-item">
+                  <a
+                    href="http://github.com/aleesoltani"
+                    class="social-icon text-muted"
+                    ><i class="mdi mdi-github-circle"></i
+                  ></a>
+                </li>
+                <li class="list-inline-item">
+                  <a
+                    href="mailto:alee.soltani@gmail.com"
+                    class="social-icon text-muted"
+                    ><i class="mdi mdi-gmail"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END FOOTER -->
+
+    <!-- BACK TO TOP -->
+    <a href="#" class="back_top"> <i class="mbri-arrow-up"> </i> </a>
+
+    <!-- JAVASCRIPTS -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!--EASING JS-->
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/scrollspy.min.js"></script>
+    <!--TEXT ROTETE-->
+    <script src="js/jquery.simple-text-rotator.js"></script>
+    <!-- MFP JS -->
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <!--PORTFOLIO FILTER JS-->
+    <script src="js/isotope.js"></script>
+    <!--PARTICLES ANIMATE JS-->
+    <script src="js/particles.js"></script>
+    <script src="js/particles.app.js"></script>
+    <!-- OWL CAROUSEL -->
+    <script src="js/owl.carousel.min.js"></script>
+    <!--CUSTOM JS-->
+    <script src="js/custom.js"></script>
+    <script>
+      $(".simple-text-rotate").textrotator({
+        animation: "dissolve",
+        speed: 2500,
+      });
+    </script>
+  </body>
 </html>
